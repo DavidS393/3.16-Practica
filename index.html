@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="ING.php" method="get">
+        <center>
+        <section>
+        <h2>Accede a tu Área Clientes</h2>
+        <br>
+        <br>
+        <h3>Elige tu documento</h3>
+            <input type="radio", name="DNI o Tarjeta de residencia", value="DNI o Trajeta de residencia">DNI o Tarjeta de residencia
+            <br>
+            <input type="radio", name="Pasaporte", value="Pasaporte">Pasaporte
+        <br>
+        <h4>Número de documento</h4>
+        <input type="number" max="9" name="DNI o Tarjeta de residencia">
+        <br>
+        <h4>Fecha de nacimiento</h4>
+        <input type="date" id="mes">
+        <br>
+        <br>
+        <label>
+            <input type="checkbox" name="casilla"> Recordar
+        </label>
+        <br>
+        <br>
+        
+            
+            <input class="naranja" type="submit" value="Enviar">
+            </center>
+        </section>
+        </form>
+        <hr>
+        <section>
+            <form action="ING.php" method="get">
+            <h2>Empieza creando tu usuario</h2>
+            <input type="text" name="cognoms" id="cognoms" placeholder="Nombre(como sale en el DNI)">
+            <br>
+            <br>
+            <input type="text" name="cognoms" id="cognoms" placeholder="1ºapellido(como sale en el DNI)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cognoms" id="cognoms" placeholder="2ºapellido(como sale en el DNI)">
+            <br>
+            <br>
+                <select name="DNI" id="DNI" aria-placeholder="DNI,NIF,CERT.AEAT">
+                    <option value="1">DNI</option>
+                    <option value="2">NIF</option>
+                    <option value="2">CERT.AEAT</option>
+              </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="NumeroDocumento" id="NumeroDocumento" placeholder="Numero Documento">
+            <br>
+            <br>
+            <input type="tel" name="telefono" id="telefono" placeholder="Móvil">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" id="email" placeholder="Email">
+            </form>
+            <hr>
+            <form action="INF.php" method="get">
+                <h2>¿Eres nuevo?</h2>
+                <p>Regístrate para guardar tu información y hacer <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;tus pedidos de forma más fácil y rápida
+                </p>
+                <br>
+                <br>
+                <p>Email</p>
+                <input type="email" name="email" id="email" placeholder="Introduce tu email">
+                <br>
+                <p>Teléfono</p>
+                <input type="tel" name="telefono" id="telefono" placeholder="Tu teléfono">
+                <br>
+                <p>Contraseña</p>
+                <input type="password" name="contraseña" id="contraseña" placeholder="Introduce tu contraseña">
+                <br>
+                <p>Contraseña</p>
+                <input type="password" name="contraseñaconfirm" id="contraseñaconfirm" placeholder="Confirmar contraseña">
+                <br>
+                <br>
+                <input type="checkbox" name="Politica de privacidad" id="Politica de privacidad">He leído y acepto <u>Politica de privacidad</u>
+                <br>
+                <br>
+                <input type="checkbox" name="Politica de privacidad" id="Politica de privacidad">Sí, acepto recibir comunicaciones comerciales <br>
+                                                                                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;y ofertas personalizadas según mi perfil.
+                <br>
+                <br>
+                <br>
+                <input class="verde" type="submit" value="Crea  tu cuenta">
+
+
+
+
+
+
+
+            </form>
+
+        </section>
+
+
+
+
+    </main>
+</body>
+</html>
