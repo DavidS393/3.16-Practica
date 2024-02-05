@@ -9,21 +9,21 @@
 <body>
     <main>
         <form action="ING.php" method="get">
-        <center>
-        <section>
+
+        <section class="izquierda">
         <h2>Accede a tu Área Clientes</h2>
         <br>
         <br>
         <h3>Elige tu documento</h3>
-            <input type="radio", name="DNI o Tarjeta de residencia", value="DNI o Trajeta de residencia">DNI o Tarjeta de residencia
+            <input type="radio", name="Documento", value="DNI o Trajeta de residencia">DNI o Tarjeta de residencia
             <br>
-            <input type="radio", name="Pasaporte", value="Pasaporte">Pasaporte
+            <input type="radio", name="Documento", value="Pasaporte">Pasaporte
         <br>
         <h4>Número de documento</h4>
-        <input type="number" max="9" name="DNI o Tarjeta de residencia">
+        <input class="fecha" type="number" max="9" name="DNI o Tarjeta de residencia">
         <br>
         <h4>Fecha de nacimiento</h4>
-        <input type="date" id="mes">
+        <input class="fecha" type="date" id="mes">
         <br>
         <br>
         <label>
@@ -31,32 +31,38 @@
         </label>
         <br>
         <br>
-        
-            
+           
             <input class="naranja" type="submit" value="Enviar">
-            </center>
         </section>
-        </form>
+        <br>
+        <br>
         <hr>
-        <section>
+        </form>
+        <section class="izquierdasuave">
             <form action="ING.php" method="get">
             <h2>Empieza creando tu usuario</h2>
-            <input type="text" name="cognoms" id="cognoms" placeholder="Nombre(como sale en el DNI)">
+            <input class="fecha" type="text" name="cognoms" id="cognoms" placeholder="Nombre(como sale en el DNI)">
             <br>
             <br>
-            <input type="text" name="cognoms" id="cognoms" placeholder="1ºapellido(como sale en el DNI)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="cognoms" id="cognoms" placeholder="2ºapellido(como sale en el DNI)">
+            <input class="fecha" type="text" name="cognoms" id="cognoms" placeholder="1ºapellido(como sale en el DNI)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="fecha" type="text" name="cognoms" id="cognoms" placeholder="2ºapellido(como sale en el DNI)">
             <br>
             <br>
-                <select name="DNI" id="DNI" aria-placeholder="DNI,NIF,CERT.AEAT">
+                <select class="fecha" name="DNI" id="DNI" aria-placeholder="DNI,NIF,CERT.AEAT">
                     <option value="1">DNI</option>
                     <option value="2">NIF</option>
                     <option value="2">CERT.AEAT</option>
-              </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="NumeroDocumento" id="NumeroDocumento" placeholder="Numero Documento">
+              </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="fecha" type="text" name="NumeroDocumento" id="NumeroDocumento" placeholder="Numero Documento">
             <br>
             <br>
-            <input type="tel" name="telefono" id="telefono" placeholder="Móvil">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" id="email" placeholder="Email">
-            </form>
+            <input class="fecha" type="tel" name="telefono" id="telefono" placeholder="Móvil">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="fecha" type="email" name="email" id="email" placeholder="Email">
+           </section>
+           <br>
+            <br>
+            <br>
             <hr>
+    
+            </form>
+            <section class="izquierda">
             <form action="INF.php" method="get">
                 <h2>¿Eres nuevo?</h2>
                 <p>Regístrate para guardar tu información y hacer <br>
@@ -65,16 +71,16 @@
                 <br>
                 <br>
                 <p>Email</p>
-                <input type="email" name="email" id="email" placeholder="Introduce tu email">
+                <input class="fecha" type="email" name="email" id="email" placeholder="Introduce tu email">
                 <br>
                 <p>Teléfono</p>
-                <input type="tel" name="telefono" id="telefono" placeholder="Tu teléfono">
+                <input class="fecha" type="tel" name="telefono" id="telefono" placeholder="Tu teléfono">
                 <br>
                 <p>Contraseña</p>
-                <input type="password" name="contraseña" id="contraseña" placeholder="Introduce tu contraseña">
+                <input class="fecha" type="password" name="contraseña" id="contraseña" placeholder="Introduce tu contraseña">
                 <br>
                 <p>Contraseña</p>
-                <input type="password" name="contraseñaconfirm" id="contraseñaconfirm" placeholder="Confirmar contraseña">
+                <input class="fecha" type="password" name="contraseñaconfirm" id="contraseñaconfirm" placeholder="Confirmar contraseña">
                 <br>
                 <br>
                 <input type="checkbox" name="Politica de privacidad" id="Politica de privacidad">He leído y acepto <u>Politica de privacidad</u>

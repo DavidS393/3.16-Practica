@@ -1,11 +1,37 @@
 input.naranja {
     background-color: #ff6200;
     border: 2px solid #ff6200;       color: white;     background-color: #ff6200;     width: 400px;
-    
+    position: relative;
+    width: 390px;
+    height: 30px;
 }
 
 input.verde {
     background-color: #0a8020;
     border: 2px solid #0a8020;       color: white;     background-color: #0a8020;     width: 400px;
-    
+    position: relative;
+    width: 390px;
+    height: 30px;
+}
+
+section.izquierda {
+    position: relative;
+    left: 600px;
+}
+
+section.izquierdasuave {
+    position: relative;
+    left: 450px;
+}
+
+input.fecha {
+    position: relative;
+    width: 390px;
+    height: 30px;
+}
+
+select.fecha {
+    position: relative;
+    width: 390px;
+    height: 30px;
 }
