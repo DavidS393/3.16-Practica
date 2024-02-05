@@ -35,3 +35,9 @@ select.fecha {
     width: 390px;
     height: 30px;
 }
+
+input.fecha2 {
+    position: relative;
+    width: 810px;
+    height: 30px;
+}
